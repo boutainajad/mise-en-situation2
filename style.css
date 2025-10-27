@@ -1,0 +1,42 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartes{
+    display: flex;
+    gap: 50px;
+}
+p{
+    width: 300px;
+}
+.carte1{
+    border-top: 2px solid hsl(180, 62%, 55%);
+}
+.carte2{
+    border-top: 2px solid hsl(0, 78%, 62%);
+   
+}
+.carte3{
+    border-top: 2px solid hsl(34, 97%, 64%) ;
+}
+.carte4{
+    border-top: 2px solid hsl(212, 86%, 64%) ;
+}
+.carte2-3{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.imgg{
+    display: flex;
+    justify-content: end;
+    
+}
+@media (max-width : 375px){
+    .cartes{
+        display:flex;
+        flex-direction: column;
+    }
+}
